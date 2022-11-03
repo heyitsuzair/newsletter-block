@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/newsletter-block",
+  "version": "0.1.0",
+  "title": "Newsletter Block",
+  "category": "custom-uzair-category",
+  "icon": "rss",
+  "description": "Custom Newsletter Block By MUHAMMAD UZAIR",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "newsletter-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
