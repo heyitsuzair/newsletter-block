@@ -10,6 +10,7 @@ const TEMPLATE = [
 				"core/column",
 				{
 					verticalAlign: "mid",
+					templateLock: true,
 				},
 				[
 					[
@@ -31,14 +32,9 @@ const TEMPLATE = [
 				"core/column",
 				{
 					verticalAlign: "mid",
+					// templateLock: true,
 				},
 				[
-					[
-						"core/shortcode",
-						{
-							text: "Generate Form From WP Forms Or Any Form Builder And Replace This Text With Shortcode",
-						},
-					],
 					[
 						"core/shortcode",
 						{
@@ -52,5 +48,5 @@ const TEMPLATE = [
 ];
 
 export default function Edit() {
-	return <InnerBlocks template={TEMPLATE} templateLock="insert" />;
+	return <InnerBlocks template={TEMPLATE} />;
 }

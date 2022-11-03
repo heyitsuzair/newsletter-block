@@ -21,22 +21,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const TEMPLATE = [["core/columns", {}, [["core/column", {
-  verticalAlign: "mid"
+  verticalAlign: "mid",
+  templateLock: true
 }, [["core/heading", {
   placeholder: "Enter Heading"
 }], ["core/paragraph", {
   placeholder: "Enter Description"
 }], ["core/image"]]], ["core/column", {
   verticalAlign: "mid"
+  // templateLock: true,
 }, [["core/shortcode", {
-  text: "Generate Form From WP Forms Or Any Form Builder And Replace This Text With Shortcode"
-}], ["core/shortcode", {
   text: "Generate Form From WP Forms Or Any Form Builder And Replace This Text With Shortcode"
 }]]]]]];
 function Edit() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, {
-    template: TEMPLATE,
-    templateLock: "insert"
+    template: TEMPLATE
   });
 }
 
